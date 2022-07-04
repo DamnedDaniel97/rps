@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/8e24215b30.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Asap:ital@1&family=Gulzar&family=Rubik+Moonrocks&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <h1>Rock Paper Scissors</h1>
+    </header>
+
+    <div class="score-board">
+      <div id="user-label" class="badge">player</div>
+      <div id="computer-label" class="badge">computer</div>
+      <span id="user-score">0</span>:<span id="computer-score">0</span>
+    </div>
+
+    <div class="result">
+      <p>Good Luck!</p>
+    </div>
+
+    <div class="choices">
+      <div class="choice" id="r">
+        <img src="rock11.png" alt="rock" height="200px" width="200px" />
+      </div>
+      <div class="choice" id="p">
+        <img src="pngeggpaper.png" alt="paper" height="200px" width="200px" />
+      </div>
+      <div class="choice" id="s">
+        <img src="scissor11.png" alt="scissor" height="200px" width="200px" />
+      </div>
+    </div>
+    <p id="action-message">Make your move</p>
+    <script src="main.js"></script>
+  </body>
+</html>
